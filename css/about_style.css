@@ -1,0 +1,22 @@
+.text-body h2 {
+	font-size: 3vw;
+	text-align: center;
+}
+
+.text-body p {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.jumbotron {
+	background-color: #2cbccc;
+	color: white;
+}
+
+.jumbotron * {
+    padding-left: 50px;
+}
+
+

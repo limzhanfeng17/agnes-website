@@ -1,0 +1,13 @@
+body {
+    font-family: verdana;
+}
+
+.main-title {
+    font-size: 4vw;
+	color: white;
+    background-color: #03265e;
+    padding-top: 30px;
+    padding-bottom: 30px;
+	font-weight: bold;
+	text-align: center;
+}

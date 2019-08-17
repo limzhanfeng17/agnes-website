@@ -1,0 +1,48 @@
+#intro-line {
+	text-align: center;	
+}
+
+#intro-images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.animate-1 {
+    animation-name: fade-in;
+    animation-duration: 6s;    
+}
+
+@keyframes fade-in {
+    from {  opacity: 0; 
+            transform: rotate(-80deg);
+        }
+
+    to {    opacity: 1;
+            transform: rotate(0deg);
+        }    
+}
+
+.animate-2 {
+    animation-name: blinking-bg;
+    animation-duration: 4s;    
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blinking-bg {
+   0% { background-color: #bff442; }
+   40% { background-color: #f9ff63; }
+   80% { background-color: #ffd263; }
+   100% { background-color: #ff8c63; }
+}
+
+.card-deck .card {
+	width: 400px;
+}
+
+.card-deck .card :hover {
+    background-color: red;
+    color: white;
+}

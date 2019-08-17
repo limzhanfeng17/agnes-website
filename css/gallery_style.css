@@ -1,0 +1,10 @@
+#intro-images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.right-col p {
+	text-align: center;
+}
